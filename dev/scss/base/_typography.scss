@@ -2,3 +2,13 @@
     Typography
 ============= */
 @use "../helpers";
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.section-title{
+    color: var(--night_blue);
+    font-size: helpers.rem-calc(50);
+    line-height: helpers.rem-calc(65);
+}

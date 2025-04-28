@@ -331,6 +331,24 @@ html {
 }
 
 /* ---------------- Media Queries ---------------- */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 .img-scaler {
   width: 100%;
 }
@@ -338,6 +356,16 @@ html {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-title {
+  color: var(--night_blue);
+  font-size: 3.125rem;
+  line-height: 4.0625rem;
+}
+
 /* =============
     Buttons
 ============= */

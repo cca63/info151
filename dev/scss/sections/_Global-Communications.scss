@@ -1,0 +1,16 @@
+/* =======================
+    Global Communications
+========================== */
+@use "../helpers";
+
+#global-communications{
+    padding: 40 px 24px;
+    text-align: center;
+
+    p{
+        margin: 24px 0px 48px;
+        line-height: 28px;
+        color: var(--grey);
+        font-weight: 600;
+    }
+}
