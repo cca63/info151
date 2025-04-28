@@ -14,7 +14,8 @@
         }
 
         p{
-            color: var(--grey);
+            margin-top: 24px;
+            margin-bottom: 24px;
         }
 
         a:link, a:vistited{
@@ -29,6 +30,10 @@
         button{
             background-color: var(--white);
             border: none;
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+            margin-left: 30px;
         }
     }
 

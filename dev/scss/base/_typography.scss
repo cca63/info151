@@ -12,3 +12,9 @@ body{
     font-size: helpers.rem-calc(50);
     line-height: helpers.rem-calc(65);
 }
+
+.body-grey-text{
+    line-height: helpers.rem-calc(28);
+    color: var(--grey);
+    font-weight: 600;
+}

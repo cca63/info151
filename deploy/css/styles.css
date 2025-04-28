@@ -366,6 +366,12 @@ body {
   line-height: 4.0625rem;
 }
 
+.body-grey-text {
+  line-height: 1.75rem;
+  color: var(--grey);
+  font-weight: 600;
+}
+
 /* =============
     Buttons
 ============= */
@@ -409,7 +415,8 @@ section article h1 {
   color: var(--night_blue);
 }
 section article p {
-  color: var(--grey);
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 section article a:link, section article a:vistited {
   background-color: var(--night_blue);
@@ -418,10 +425,25 @@ section article a:link, section article a:vistited {
 section article button {
   background-color: var(--white);
   border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin-left: 30px;
 }
 section #hero-card {
   background-color: var(--snowdrop);
 }
 section #hero-card h5 {
   color: var(--night_blue);
+}
+
+/* =======================
+    Global Communications
+========================== */
+#global-communications {
+  padding: 40 px 24px;
+  text-align: center;
+}
+#global-communications p {
+  margin: 24px 0px 48px;
 }
