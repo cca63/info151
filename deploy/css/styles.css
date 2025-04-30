@@ -316,6 +316,7 @@ template {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --white33: #ffffff33;
   --ghost_white: #F0FAFF;
   --lily_white: #ECF9FF;
   --snowdrop: #F9FDFF;
@@ -351,6 +352,10 @@ ul li {
 
 .img-scaler {
   width: 100%;
+}
+
+.content-padding {
+  padding: 40px 24px;
 }
 
 /* =============
@@ -437,13 +442,92 @@ section #hero-card h5 {
   color: var(--night_blue);
 }
 
+/* =============
+    packages
+============= */
+#packages {
+  background-color: var(--lily_white);
+}
+#packages h1 {
+  color: var(--night_blue);
+}
+#packages #package-button-container {
+  background-color: var(--white);
+}
+#packages #package-button-container button {
+  border: none;
+}
+#packages #package-button-container #left {
+  background-color: var(--white);
+  color: var(--grey);
+}
+#packages #package-button-container #right {
+  background-color: var(--aqua);
+  color: var(--white);
+}
+#packages #package-cards .package-card {
+  background-color: var(--white33);
+  border: 1px solid var(--white);
+}
+#packages #package-cards .package-card p {
+  color: var(--night_blue);
+}
+#packages #package-cards .package-card h3 {
+  color: var(--aqua);
+}
+#packages #package-cards .package-card h4 {
+  color: var(--grey);
+}
+#packages #package-cards .selected {
+  background-color: var(--white);
+}
+
 /* =======================
     Global Communications
 ========================== */
 #global-communications {
-  padding: 40 px 24px;
   text-align: center;
 }
 #global-communications p {
   margin: 24px 0px 48px;
+}
+
+/* =============
+    howitworks
+============= */
+#how-it-works .works-p {
+  margin: 12px 0 24px;
+}
+#how-it-works ul li {
+  border: 1px solid var(--lilywhite);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  background-color: var(--lilywhite);
+}
+#how-it-works ul h2 {
+  font-size: 1.5rem;
+  color: var(--nightblue);
+  font-weight: 600;
+  margin: 40 px 0 12px;
+}
+#how-it-works ul #selected {
+  -webkit-box-shadow: 0px 30px 30px 0px rgba(3, 3, 37, 0.3);
+          box-shadow: 0px 30px 30px 0px rgba(3, 3, 37, 0.3);
+}
+
+/* =======================
+   about us
+========================== */
+#about section .about-p {
+  margin: 24px 0 40px;
+}
+#about section ul li h2 {
+  color: var(--nightblue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#about aside {
+  margin-top: 60px;
 }
