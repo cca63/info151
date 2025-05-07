@@ -1,0 +1,47 @@
+/* =============
+    hero
+============= */
+@use "../helpers";
+
+#hero{
+    background-color: var(--lily_white);
+}
+
+ section{
+    article{
+        h1{
+            color: var(--night_blue);
+        }
+
+        p{
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+
+        a:link, a:vistited{
+            background-color: var(--night_blue);
+            color: var(--white);
+        }
+
+        a:hover, a:focus{
+
+        }
+
+        button{
+            background-color: var(--white);
+            border: none;
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+            margin-left: 30px;
+        }
+    }
+
+    #hero-card{
+        background-color: var(--snowdrop);
+
+        h5{
+           color: var(--night_blue); 
+        }
+    }
+ }

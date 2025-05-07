@@ -1,0 +1,49 @@
+/* =============
+    newsletter
+============= */
+@use "../helpers";
+
+#newsletter{
+
+    #newsletter-content{
+        background-color: var(--lily_white);
+        padding: 60px 16px;
+
+        p{
+            margin: 16px 0;
+        }
+
+        form{
+
+            input{
+                border: none;
+                color: var(--grey);
+                font-weight: 600;
+                width: 100%;
+                padding: 24px 8px;
+                box-sizing: border-box;
+                border-radius: 8px;
+                margin-bottom: 16px;
+            }
+
+            button{
+                border: none;
+                background-color: var(--night_blue);
+                color: var(--white);
+            }
+
+            ::placeholder{
+                color: var(--grey);
+                opacity: 1;
+            }
+
+            ::-ms-input-placeholder {
+                color: var(--grey);
+            }
+
+            div{
+                text-align: right;
+            }
+        }
+    }
+}

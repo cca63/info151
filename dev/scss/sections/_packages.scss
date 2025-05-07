@@ -1,0 +1,56 @@
+/* =============
+    packages
+============= */
+@use "../helpers";
+
+
+#packages{
+    background-color: var(--lily_white);
+
+
+
+    h1{
+        color: var(--night_blue);
+    }
+
+    #package-button-container{
+        background-color: var(--white);
+
+        button{
+            border: none;
+        }
+
+       #left{
+            background-color: var(--white);
+            color: var(--grey);
+       }
+       
+       #right{
+            background-color: var(--aqua);
+            color: var(--white);
+       }
+    }
+
+    #package-cards{
+        .package-card{
+            background-color: var(--white33);
+            border: 1px solid var(--white);
+
+            p{
+                color: var(--night_blue);
+            }
+
+            h3{
+                color: var(--aqua);
+            }
+
+            h4{
+                color: var(--grey);
+            }
+        }
+
+        .selected{
+            background-color: var(--white);
+        }
+    }
+}
