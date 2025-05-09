@@ -414,20 +414,27 @@ textarea {
 ============= */
 #hero {
   background-color: var(--lily_white);
+  padding: 56px 24px;
 }
-
-section article h1 {
+#hero section article h1 {
   color: var(--night_blue);
 }
-section article p {
+#hero section article p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
   margin-top: 24px;
   margin-bottom: 24px;
 }
-section article a:link, section article a:vistited {
+#hero section article a:link, #hero section article a:vistited {
   background-color: var(--night_blue);
   color: var(--white);
+  font-size: 0.875rem;
+  padding: 22px 36px;
+  border-radius: 6px;
+  display: inline-block;
 }
-section article button {
+#hero section article button {
   background-color: var(--white);
   border: none;
   height: 60px;
@@ -435,11 +442,21 @@ section article button {
   border-radius: 100%;
   margin-left: 30px;
 }
-section #hero-card {
+#hero section #hero-card {
   background-color: var(--snowdrop);
+  margin-top: 70px;
+  padding: 24px 20px;
+  border-radius: 12px;
 }
-section #hero-card h5 {
+#hero section #hero-card h5 {
   color: var(--night_blue);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+#hero section #hero-card p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
 }
 
 /* =============
